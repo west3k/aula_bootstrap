@@ -13,12 +13,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-lg-between">
         <a href="#" class="navbar-brand">
             <img src="img/GLStudio.png" width="220px" height="80px" alt="">
         </a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navShow"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center justify-content-end me-5" id="navShow">
+            <ul class="navbar-nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="#quemsomos">Quem somos</a>
                 </li>
@@ -26,23 +30,24 @@
                     <a class="nav-link" href="#parceiros">Parceiros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#servicos">Serviços</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <section id="quemsomos">
-        <div class="container-fluids quem-somos text-center margin">
-            <h3>Quem Somos</h3>
-            <img src="./img/pexels-cottonbro-3585011.jpg" class="rounded-circle mt-3 mb-3" width="400px" height="400px" alt="">
+        <div class="container-fluids quem-somos text-center pt-5 pb-5">
+            <h3 class="fw-bolder">Quem Somos</h3>
+            <img src="./img/pexels-cottonbro-3585011.jpg" class="rounded-circle mt-3 mb-3" width="400px" height="400px"
+                alt="">
             <h3>Somos um time comprometido com os resultados</h3>
         </div>
     </section>
 
-    <section id="parceiros">
-        <div class="container-fluids margin text-center bg-info">
-            <h3>Parceiros</h3>
+    <section id="parceiros" class="bg-light">
+        <div class="container-fluids pt-5 pb-5 text-center bg-info">
+            <h3 class="mb-5 fw-bolder">Parceiros</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -59,7 +64,37 @@
         </div>
     </section>
 
+    <section id="servicos">
+        <div class="container-fluid text-center pt-5 pb-5 servicos">
+            <h3 class="mb-5 fw-bolder">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="text-secondary fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consectetur ab blanditiis sequi necessitatibus quasi odio voluptatum mollitia. Vero sed,
+                            fugit harum porro adipisci error, ut, unde esse inventore eius incidunt.</p>
+                        <img src="./img/site1.jpg" alt="" width="100%" class="mb-3">
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="text-secondary fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consectetur ab blanditiis sequi necessitatibus quasi odio voluptatum mollitia. Vero sed,
+                            fugit harum porro adipisci error, ut, unde esse inventore eius incidunt.</p>
+                        <img src="./img/site2.jpg" alt="" width="100%" class="mb-3">
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="text-secondary fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Consectetur ab blanditiis sequi necessitatibus quasi odio voluptatum mollitia. Vero sed,
+                            fugit harum porro adipisci error, ut, unde esse inventore eius incidunt.</p>
+                        <img src="./img/site3.jpg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="text-center container-fluid p-5 bg-light">
+        <p class="text-dark fst-italic">Desenvolvido por Wesley Oliveira Silva</p>
+    </footer>
 
     <!--Bootstrap-->
     <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
