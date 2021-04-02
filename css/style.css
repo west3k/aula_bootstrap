@@ -1,0 +1,31 @@
+.fundoHeader{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+}
+
+.rounded1{
+    border-radius: 30%;
+}
+
+.bg-dark1{
+    background-color: black;
+}
+
+.underlineHover:hover{
+    text-decoration: none;
+}
+
+main{
+    background-image: url(../images/overlay.png);
+}
+
+.font-size{
+    font-size: 13px;
+}
+
+.height100{
+    height: 100px;;
+}
